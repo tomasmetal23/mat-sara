@@ -1,0 +1,55 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+header p{
+	height:30px;
+	margin-top:10px;
+}
+img.newvsgot{	
+	height:150 px;
+	width:320px; 
+	display: block;
+	margin: auto;
+	margin-top:-15px;	
+	padding:5px;
+}
+img.logo{
+	display: block;
+	margin: auto;
+	width: 250px; 
+}
+nav ul li {
+    list-style: none;
+	font-size: 14pt;	
+}
+nav ul li a{
+	text-decoration: none;
+}
+
+.margen{	
+	margin: auto;
+	display: block;
+	padding:10px;
+}
+
+#accion{
+	background-color:#12b33d;
+}
+#contenido{
+	background-color:#0909d9;
+}
+#tabla{
+	background-color: #ff9109;
+}
+#aempresa{
+	background-color: #8d0ece;
+}
+#tabla2{
+	background-color: #f01e07;
+}
+.fondo{
+	background-color:#222222;
+}

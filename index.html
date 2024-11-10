@@ -1,122 +1,38 @@
-
 <!DOCTYPE html>
-<html>
-<head>
-<title>Juego De Adivinanzas</title>
- <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" charset="utf-8">
-<script src='app/jquery/jquery-2.1.4.min.js'></script>
-<script src='app/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js'></script>
-<link rel="stylesheet" type="text/css" href="app/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css">	
-<script type="text/javascript" src='js/index.js'></script>
-<script>
-	$(document).ready(function () {
-
-	
-
-
-
-
-
-		$("#accion").click(function(){
-		location.href="juego.html";
-				
-		})
-
-		$("#aempresa").click(function(){
-
-			
-window.open('https://www.geogebra.org/graphing?lang=es', '_blank', 'location=no');
-
-		})
-
-	
-		$("#contenido").click(function(){
-		location.href="contenido.html";
-		})
-	
-
-		$("#tabla").click(function(){
-		location.href="tabla.html";
-		})
-
-	
-		
-
-	})
-
-
-	</script>
-	
-</head>
-<body>
-
-
-
-<div data-role="page" style="background-color:#222222;">
-
-<div data-role="header" style="position:fixed; width:100%; z-index: 10;">
-	<p class="ui-corner-all ui-btn-icon-left ui-icon-home">Inicio</p>
-</div>
-<br>
-<br>
-
-
-<br>
-<br>
-<br>
-
-
-<div id='conten' data-role="content">
-<center>
-	<img src="img/ngineX.png" id='img-welcome' width="250" >
-	<br>
-
-
-</center>
-
-
-	<a id='accion' data-textonly="false" data-textvisible="true" data-msgtext="Cargando..." data-inline="true" class="ui-btn ui-shadow ui-corner-all ui-btn-b ui-btn-icon-left" style="background-color:#79de39;">Iniciar Juego</a>
-
-	<a id='contenido' class="ui-shadow ui-corner-all ui-btn-icon-left ui-btn ui-shadow ui-corner-all ui-btn-b" style="background-color:#229dc1;">Contenido</a>
-
-	<a id='tabla' class="ui-shadow ui-corner-all ui-btn-icon-left ui-btn ui-shadow ui-corner-all ui-btn-b" style="background-color: #ff9109;">Tabla de integrales</a>
-	
-	<a id='aempresa' class="ui-shadow ui-corner-all ui-btn-icon-left ui-btn ui-shadow ui-corner-all ui-btn-b" style="background-color: #8d0ece;">Calculadora</a>
-
-
-
-<div id="resutl"></div>
-
-</div>
-
-<center>
-<img src="img/munequito2.png" style="position:absolute;" id='img-welcome' width="250" >
-</center>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-<div data-role="footer">
-<h4>Desing By Sarahí Molina</h4>	
-</div>
-
-</div>
-</body>
+<html lang="es"> <!-- se define el lenguaje de la pagina o app-->
+	<head>		 <!-- se define la cabecera de la pagina-->
+		<title>MATSARA</title> <!-- se define el titulo de la pagina-->
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" charset="utf-8">
+		<meta name="description" content="Juego Integrales">  <!-- descripcion de la pagina-->
+		<meta name="keywords" content="Matsara, Integrales, Derivadas"><!--indicar a los motores de búsqueda las palabras clave relevantes para un sitio web-->
+		<link rel="icon" href="img/icon.png" type="image/x-icon"> <!-- se define el icono desde archivo de la aplicacion-->
+		<link rel="stylesheet" type="text/css" href="app/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css"> <!-- se incluyen los css o paginas de estilos desde archivo-->
+		<link rel="stylesheet" type="text/css" href="css/style.css"> 
+	</head>
+	<body data-role="page">													<!--cuerpo del la app o pagina-->
+	<header data-role="header"> 	
+			<p class="ui-btn-icon-left ui-icon-home">Inicio</p>						
+	</header>
+	<nav class="fondo"> 				<!--descripcion del menu-->
+		<br>
+		<img class="logo" src="img/logo.png" id='img-welcome'>		
+		<ul class="margen">
+			<li><a href="#" id="accion" class="ui-shadow ui-corner-all ui-btn ui-corner-all ui-btn-b">Iniciar Juego</a></li>   
+			<li><a href="#" id="contenido" class="ui-shadow ui-corner-all ui-btn ui-corner-all ui-btn-b">Contenido</a></li>
+			<li><a href="#" id="tabla" class="ui-shadow ui-corner-all ui-btn ui-corner-all ui-btn-b">Tabla de Integrales</a></li>
+			<li><a href="#" id="tabla2" class="ui-shadow ui-corner-all ui-btn ui-corner-all ui-btn-b">Tabla de Derivada</a></li>
+			<li><a href="#" id="aempresa" class="ui-shadow ui-corner-all ui-btn ui-corner-all ui-btn-b">Calculadora</a></li>
+		</ul>
+	</nav>
+	<div class="fondo">
+		<img class="newvsgot" src="img/munequito2.png"  id='img-welcome'>
+	</div>	
+	</body>	
+	<footer data-role="footer">
+		<h4>&copy; Desing By Sarahí Molina 2024</h4>
+	</footer>
+	<script src='app/jquery/jquery-2.1.4.min.js'></script> <!--incluyen los js desde archivos-->
+	<script src='app/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js'></script>						
+	<script type="text/javascript" src='js/index.js'></script>
+	<script type="text/javascript" src='js/menu.js'></script>
 </html>
