@@ -26,3 +26,13 @@ $(document).ready(function () {
 	
 		
 	})
+ 
+ function redir(){
+	 
+        location.href = "index.html";
+    }
+function ir(){ 
+window.open('https://www.superprof.es/apuntes/escolar/matematicas/calculo/integrales/', '_blank', 'location=no');
+
+
+  }

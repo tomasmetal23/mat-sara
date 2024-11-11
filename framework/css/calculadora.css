@@ -1,4 +1,4 @@
-body {
+/*body {
   margin: 0px;
   padding: 0px;
   background: #bdc3c7;
@@ -6,7 +6,7 @@ body {
   background: linear-gradient(to right, #2c3e50, #bdc3c7);
 
   font-family: sans-serif;
-}
+}*/
 
 #calculadora {
   width: 340px;
