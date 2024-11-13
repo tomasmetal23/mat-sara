@@ -11,7 +11,7 @@ window.onload = function () {
 				'img/newvsgott/8.jpg'
 
             ];
-            const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
+            const TIEMPO_INTERVALO_MILESIMAS_SEG = 2000;
             let posicionActual = 0;
             /*let $botonRetroceder = document.querySelector('#retroceder');
             let $botonAvanzar = document.querySelector('#avanzar');*/
@@ -86,5 +86,5 @@ window.onload = function () {
             // Iniciar
             renderizarImagen();
 			
-			setInterval(playIntervalo(), 1000)			
+			setInterval(playIntervalo(), 2000)			
         }
