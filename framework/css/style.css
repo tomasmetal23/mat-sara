@@ -104,8 +104,8 @@ footer.alto {
     width:370px;
     height: 250px;
     background-size: cover;
-    opacity:3;
-	transition: all 2s ease-in-out;
+    opacity:1;
+	transition: all 1s ease-in-out;
 
 
 }
