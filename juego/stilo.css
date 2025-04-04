@@ -15,7 +15,7 @@ ul h1{
 }
 
 #respuestas img {
- margin-left: 20px;
+
   width: 210px; /* Ajusta el tamaño máximo de las imágenes de las respuestas */
   height: auto;
     background-size: cover;
@@ -40,7 +40,7 @@ ul h1{
  width: 350px;
 	background-color:#12b33d;
     height: 80px;
-margin-left: 20px;
+margin-left: 200px;
 
 }
 #puntuacion{
