@@ -1,8 +1,7 @@
 $(document).ready(function () {
 
 		$("#accion").click(function(){
-		location.href="juego.html";
-				
+		location.href="juego/index.html";				
 		})		
 	
 		$("#contenido").click(function(){
@@ -13,17 +12,17 @@ $(document).ready(function () {
 		location.href="tabla.html";
 		})
 		
-		$("#tabla2").click(function(){
-		location.href="tabla.html";
+		$("#formulario").click(function(){
+		location.href="formulario.html";
 		})
 		
-		$("#aempresa").click(function(){
-
-			
+		$("#aempresa").click(function(){	
 		location.href = "calculadora.html";
-
 		})
-	
+		
+		$("#endgame").click(function(){
+		location.href = "../index.html";
+		})
 		
 	})
 
