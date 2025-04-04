@@ -36,6 +36,7 @@ ul h1{
   color: #FAEBD7;
 }
 #game{
+ width: 350px;
  margin-left: 20px;
 	background-color:#12b33d;
     height: 80px;
