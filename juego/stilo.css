@@ -7,7 +7,7 @@ ul h1{
 	color: #FAEBD7;
 }
 #pregunta{
-  margin-left: -120px;
+  margin-left: -80px;
   margin-top:-40px;
   width: 550px; /* Ajusta el tamaño máximo de la imagen de la pregunta */
   height: auto;
@@ -28,7 +28,7 @@ ul h1{
 }
 #respuestas{
 	
-	margin-left: 10px;
+	margin-left: 40px;
     width:400px;
     height: 300px;
 }
