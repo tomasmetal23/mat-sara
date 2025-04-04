@@ -1,4 +1,4 @@
-/* Estilos generales del juego */
+9/* Estilos generales del juego */
 body {
   font-family: sans-serif;
   text-align: center;
@@ -35,7 +35,6 @@ ul h1{
 }
 #game{
 	background-color:#12b33d;
-	margin-top:-5px;
     width:350px;
     height: 80px;
 
