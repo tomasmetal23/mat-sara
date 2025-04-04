@@ -13,10 +13,11 @@ ul h1{
 }
 
 #respuestas img {
-  margin-top:-50px;
-  max-width: 210px; /* Ajusta el tamaño máximo de las imágenes de las respuestas */
+  width: 210px; /* Ajusta el tamaño máximo de las imágenes de las respuestas */
   height: auto;
   margin: auto;
+    background-size: cover;
+
   cursor: pointer; /* Indica que las imágenes son ক্লিকables */
 }
 
