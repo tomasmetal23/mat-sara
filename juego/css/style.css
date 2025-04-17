@@ -1,4 +1,4 @@
-/* Estilos generales del juego */
+⁷/* Estilos generales del juego */
 body {
   font-family: sans-serif;
   text-align: center;
@@ -65,7 +65,7 @@ ul h1{
 
 }
 #endgame{
-	margin-left:-830px;
+	margin-left:100px;
 
 }
 #niveles{
