@@ -12,18 +12,15 @@ $(document).ready(function () {
 		location.href="tabla.html";
 		})
 		
-		$("#formulario").click(function(){
-		location.href="formulario.html";
-		})
 		
 		$("#aempresa").click(function(){	
 		location.href = "calculadora.html";
 		})
 		
-		$("#endgame").click(function(){
-		location.href = "../index.html";
-		})
 		
+		
+
+
 	})
 
  function redir(){
@@ -35,3 +32,5 @@ window.open('https://www.superprof.es/apuntes/escolar/matematicas/calculo/integr
 
 
   }
+  
+  
