@@ -1,6 +1,17 @@
-/* Estilos generales del juego 
+/* Estilos generales del juego */
 body {
-  font-family: sans-serif;  sans-serif
+    font-family: sans-serif; /* Establece la fuente de texto predeterminada a una sans-serif (sin remates) */
+    text-align: center; /* Centra el texto de forma horizontal dentro del body */
+}
+
+ul h1{
+	color: #FAEBD7; /* Establece el color del texto de los encabezados <h1> dentro de listas <ul> a un blanco hueso */
+}
+
+/* Estilos para el contenedor de la pregunta */
+header p{
+    text-align: left;
+}
 #pregunta{
     margin-left: -80px; /* Aplica un margen izquierdo negativo de 80 píxeles (puede ser para ajustar la posición) */
     margin-top:-40px; /* Aplica un margen superior negativo de 40 píxeles (puede ser para ajustar la posición) */
@@ -49,11 +60,6 @@ body {
     margin-top:5px; /* Aplica un margen superior de 5 píxeles */
     width:300px; /* Establece un ancho fijo de 300 píxeles */
     height: 80px; /* Establece una altura fija de 80 píxeles */
-}
-
-header p{
-padding:0px;
-text-align: left;
 }
 
 /* Estilos para el contenedor de la puntuación actual */
