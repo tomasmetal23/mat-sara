@@ -67,11 +67,12 @@ margin-left:-200px;
 header p{
 padding:0px;
 margin-left:-200px;
-}
+}*/
+
 #niveles{
 padding:0px;
-margin-left:-50px;
-}*/
+text-align: left;
+}
 
 /* Estilos para el contenedor de la puntuación actual */
 #puntuacion{
