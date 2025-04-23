@@ -60,12 +60,13 @@ ul h1{
 }
 
 #endgame{
+padding:0px;
 margin-left:-200px;
 
 }
 #niveles{
 padding:0px;
-margin-left:-150px;
+margin-left:-100px;
 }
 /* Estilos para el contenedor de la puntuación actual */
 #puntuacion{
