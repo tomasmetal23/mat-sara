@@ -51,7 +51,7 @@ body {
     height: 80px; /* Establece una altura fija de 80 píxeles */
 }
 
-#niveles{
+header p{
 padding:0px;
 text-align: left;
 }
