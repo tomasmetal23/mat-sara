@@ -3,6 +3,9 @@ body {
     font-family: sans-serif; /* Establece la fuente de texto predeterminada a una sans-serif (sin remates) */
     text-align: center; /* Centra el texto de forma horizontal dentro del body */
 }
+body p{
+  text-align:left;
+}
 
 ul h1{
 	color: #FAEBD7; /* Establece el color del texto de los encabezados <h1> dentro de listas <ul> a un blanco hueso */
@@ -88,7 +91,3 @@ margin-left: -80px; /* Aplica un margen izquierdo negativo de 80 píxeles (puede
     background-color: #ff00ff; /* Establece un color de fondo fucsia */
 }
 
-p{
- 
-    text-align: left;
-}
