@@ -59,7 +59,7 @@ ul h1{
     height: 80px; /* Establece una altura fija de 80 píxeles */
 }
 
-#endgame{
+/*#endgame{
 padding:0px;
 margin-left:-200px;
 
@@ -71,7 +71,8 @@ margin-left:-200px;
 #niveles{
 padding:0px;
 margin-left:-100px;
-}
+}*/
+
 /* Estilos para el contenedor de la puntuación actual */
 #puntuacion{
     margin-top: 10px; /* Aplica un margen superior de 10 píxeles */
