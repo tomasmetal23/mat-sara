@@ -9,10 +9,6 @@ ul h1{
 }
 
 /* Estilos para el contenedor de la pregunta */
-header p{
-    text-align: left;
-}
-
 
 /* Estilos para la imagen dentro del contenedor de la pregunta */
 #pregunta img {
@@ -90,4 +86,8 @@ margin-left: -80px; /* Aplica un margen izquierdo negativo de 80 píxeles (puede
 }
 #nivel5{
     background-color: #ff00ff; /* Establece un color de fondo fucsia */
+}
+
+header p{
+    text-align: left;
 }
