@@ -1,131 +1,153 @@
+/* Estilos generales para toda la página */
 *{
-	padding:0;
-	margin:0;
-	box-sizing: border-box;
+	padding:0; /* Elimina el espacio interno de todos los elementos */
+	margin:0; /* Elimina el margen externo de todos los elementos */
+	box-sizing: border-box; /* Incluye el padding y el border dentro del ancho y alto de un elemento */
 }
 
-
+/* Estilos para la lista de navegación */
 nav ul li {
-    list-style: none;
-	font-size: 14pt;
-	margin-top:1%;
-	margin-bottom:0.5%;	
-	
+    list-style: none; /* Elimina los puntos o números de la lista */
+	font-size: 14pt; /* Establece el tamaño de la fuente en 14 puntos */
+	margin-top:1%; /* Añade un margen superior del 1% del elemento contenedor */
+	margin-bottom:0.5%; /* Añade un margen inferior del 0.5% del elemento contenedor */
 }
+
+/* Estilos para los enlaces dentro de la navegación */
 nav ul li a{
-	text-decoration: none;
-	
+	text-decoration: none; /* Elimina el subrayado de los enlaces */
 }
+
+/* Estilos para el iframe */
 iframe{
-	width:100%;
-	height:1000px;
-	display:block;
-	margin:auto;
+	width:100%; /* Hace que el iframe ocupe el 100% del ancho de su contenedor */
+	height:1000px; /* Establece una altura fija de 1000 píxeles para el iframe */
+	display:block; /* Hace que el iframe se comporte como un elemento de bloque, ocupando todo el ancho disponible y creando una nueva línea antes y después */
+	margin:auto; /* Centra horizontalmente el iframe si tiene un ancho menor que su contenedor */
 }
+
+/* Estilos para la imagen con la clase "logo" */
 img.logo{
-	display: block;
-	margin: auto;
-	width: 250px;
-	padding-top:50px;
-	padding-bottom:50px;
+	display: block; /* Hace que la imagen se comporte como un elemento de bloque */
+	margin: auto; /* Centra horizontalmente la imagen */
+	width: 250px; /* Establece un ancho de 250 píxeles */
+	padding-top:50px; /* Añade un espacio interno superior de 50 píxeles */
+	padding-bottom:50px; /* Añade un espacio interno inferior de 50 píxeles */
 }
+
+/* Estilos para la imagen con la clase "img_per" para la animación */
+.img_per {
+    transition: transform 0.5s ease-in-out; /* Define una transición suave para la propiedad "transform" con una duración de 0.5 segundos y una función de aceleración "ease-in-out" */
+}
+
+/* Estilos para el efecto hover en la imagen con la clase "img_per" */
 .img_per:hover {
--webkit-transform: rotateY(180deg);
--webkit-transform-style: preserve-3d;
-transform: rotateY(180deg);
-transform-style: preserve-3d;	
+    -webkit-transform: rotateY(180deg); /* Para navegadores basados en WebKit (Safari, Chrome): Rota el elemento 180 grados en el eje Y */
+    -webkit-transform-style: preserve-3d; /* Para navegadores basados en WebKit: Mantiene la perspectiva 3D del elemento durante la transformación */
+    transform: rotateY(180deg); /* Rota el elemento 180 grados en el eje Y */
+    transform-style: preserve-3d; /* Mantiene la perspectiva 3D del elemento durante la transformación */
 }
 
+/* Estilos para el elemento con la clase "fondo" */
 .fondo {
-	background-color:#222222;
+	background-color:#222222; /* Establece un color de fondo gris oscuro (#222222) */
 }
 
+/* Estilos para el elemento <header> con la clase "alto" */
 header.alto  {
-
-	height:50px;
+	height:50px; /* Establece una altura de 50 píxeles para el encabezado */
 }
 
+/* Estilos para el párrafo dentro del encabezado con la clase "alto" */
 header.alto p {
-	height:30px;
-	margin-top:15px;
+	height:30px; /* Establece una altura de 30 píxeles para el párrafo */
+	margin-top:15px; /* Añade un margen superior de 15 píxeles para centrarlo verticalmente dentro del header de 50px */
 }
+
+/* Estilos para el elemento <footer> con la clase "alto" */
 footer.alto {
-	height:50px;
+	height:50px; /* Establece una altura de 50 píxeles para el pie de página */
 }
 
-
-
-
+/* Estilos para la imagen con la clase "img_per" dentro de un elemento con la clase "fondo" */
 .fondo img.img_per{
-	height:200px;
-	width:250px;
-	margin: auto;
-	margin-bottom:10px;
-	margin-top:20px;
-	display: block;
-	border-radius:15%;	
+	height:200px; /* Establece una altura de 200 píxeles */
+	width:250px; /* Establece un ancho de 250 píxeles */
+	margin: auto; /* Centra horizontalmente la imagen */
+	margin-bottom:10px; /* Añade un margen inferior de 10 píxeles */
+	margin-top:20px; /* Añade un margen superior de 20 píxeles */
+	display: block; /* Hace que la imagen se comporte como un elemento de bloque */
+	border-radius:15%; /* Redondea las esquinas de la imagen en un 15% de su ancho/alto, creando un efecto circular */
 }
 
+/* Estilos para el elemento con la clase "titulo" */
 .titulo {
-    display:block;
-	margin: auto;
-	color: #FFFFFF;
-	font-size: 28px;
-	font-style: italic;
-	margin: auto;	
+    display:block; /* Hace que el título se comporte como un elemento de bloque */
+	margin: auto; /* Centra horizontalmente el título */
+	color: #FFFFFF; /* Establece el color del texto en blanco */
+	font-size: 28px; /* Establece el tamaño de la fuente en 28 píxeles */
+	font-style: italic; /* Establece el estilo de la fuente en cursiva */
+	margin: auto; /* Centra horizontalmente el título (redundante, ya se definió antes) */
 }
 
-
+/* Estilos para el párrafo dentro del elemento con la clase "contenido" */
 .contenido p{
-	color: #FFFFFF;
-	font-size: 19px;
-	text-align: justify;
-	font-style: normal;
-	margin:30px;
-	margin-top:2%;
-	margin-bottom:2.5%;
-
-	
+	color: #FFFFFF; /* Establece el color del texto en blanco */
+	font-size: 19px; /* Establece el tamaño de la fuente en 19 píxeles */
+	text-align: justify; /* Justifica el texto, distribuyendo el espacio entre las palabras para que las líneas tengan la misma longitud */
+	font-style: normal; /* Establece el estilo de la fuente en normal (no cursiva) */
+	margin:30px; /* Establece un margen de 30 píxeles en todos los lados */
+	margin-top:2%; /* Sobrescribe el margen superior con un 2% del elemento contenedor */
+	margin-bottom:2.5%; /* Sobrescribe el margen inferior con un 2.5% del elemento contenedor */
 }
+
+/* Estilos para el elemento con la clase "carousel" */
 .carousel {
-	background-color:#222222;
-	max-width: 800px;
-	margin: 0 auto;
-	margin-top:-8px;
-	display: flex;
-	padding:10px;
+	background-color:#222222; /* Establece un color de fondo gris oscuro */
+	max-width: 800px; /* Establece un ancho máximo de 800 píxeles */
+	margin: 0 auto; /* Centra horizontalmente el carrusel */
+	margin-top:-8px; /* Añade un margen superior negativo de 8 píxeles (posiblemente para ajustar el espaciado con el elemento anterior) */
+	display: flex; /* Utiliza Flexbox para la disposición de los elementos hijos */
+	padding:10px; /* Añade un espacio interno de 10 píxeles en todos los lados */
 }
-	/*height:250 px; 
-	width:370px;*/
-.respuestas{
+	/*height:250 px;
+	width:370px;*/ /* Estos son comentarios, indican dimensiones pero no están activos */
 
-}
-
+/* Estilos para el elemento con el ID "imagen" dentro del carrusel */
 #imagen {
-	
-	margin:auto;
-    width:370px;
-    height: 250px;
-    background-size: cover;
-    opacity:1;
-	transition: all 1s ease-in-out;
-
-
+	margin:auto; /* Centra horizontalmente la imagen dentro del carrusel (debido a flexbox) */
+    width:370px; /* Establece un ancho de 370 píxeles */
+    height: 250px; /* Establece una altura de 250 píxeles */
+    background-size: cover; /* Escala la imagen de fondo para cubrir todo el contenedor, recortando si es necesario */
+    opacity:1; /* Establece la opacidad completa (sin transparencia) */
+	transition: all 1s ease-in-out; /* Define una transición suave para todas las propiedades con una duración de 1 segundo y una función de aceleración "ease-in-out" */
 }
 
+/* Estilos para el elemento con el ID "accion" */
 #accion{
-	background-color:#12b33d;
+	background-color:#12b33d; /* Establece un color de fondo verde (#12b33d) */
 }
+
+/* Estilos para el elemento con el ID "contenido" */
 #contenido{
-	background-color:#0909d9;
+	background-color:#0909d9; /* Establece un color de fondo azul (#0909d9) */
 }
+
+/* Estilos para el elemento con el ID "tabla" */
 #tabla{
-	background-color: #ff9109;
+	background-color: #ff9109; /* Establece un color de fondo naranja (#ff9109) */
 }
+
+/* Estilos para el elemento con el ID "aempresa" */
 #aempresa{
-	background-color: #8d0ece;
+	background-color: #8d0ece; /* Establece un color de fondo morado (#8d0ece) */
 }
+
+/* Estilos para el elemento con el ID "formulario" */
 #formulario{
-	background-color: #f01e07;
+	background-color: #f01e07; /* Establece un color de fondo rojo (#f01e07) */
 }
+
+
+
 

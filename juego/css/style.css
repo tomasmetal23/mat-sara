@@ -1,0 +1,91 @@
+/* Estilos generales del juego */
+body {
+    font-family: sans-serif; /* Establece la fuente de texto predeterminada a una sans-serif (sin remates) */
+    text-align: center; /* Centra el texto de forma horizontal dentro del body */
+}
+
+ul h1{
+	color: #FAEBD7; /* Establece el color del texto de los encabezados <h1> dentro de listas <ul> a un blanco hueso */
+}
+
+/* Estilos para el contenedor de la pregunta */
+#pregunta{
+    margin-left: -80px; /* Aplica un margen izquierdo negativo de 80 píxeles (puede ser para ajustar la posición) */
+    margin-top:-40px; /* Aplica un margen superior negativo de 40 píxeles (puede ser para ajustar la posición) */
+    width: 550px; /* Establece un ancho fijo de 550 píxeles para el contenedor de la pregunta */
+    height: auto; /* Permite que la altura del contenedor se ajuste automáticamente al contenido */
+    padding-bottom:-150px; /* Aplica un padding inferior negativo de 150 píxeles (puede ser para ajustar el espaciado con elementos inferiores) */
+}
+
+/* Estilos para la imagen dentro del contenedor de la pregunta */
+#pregunta img {
+    width: 550px; /* Establece un ancho fijo de 550 píxeles para la imagen de la pregunta */
+}
+
+/* Estilos para el contenedor de las respuestas */
+#respuestas{
+    margin-left: 40px; /* Aplica un margen izquierdo de 40 píxeles */
+    width:400px; /* Establece un ancho fijo de 400 píxeles para el contenedor de las respuestas */
+    height: 300px; /* Establece una altura fija de 300 píxeles para el contenedor de las respuestas */
+}
+
+/* Estilos para las imágenes dentro del contenedor de las respuestas */
+#respuestas img {
+    max-width: 210px; /* Establece un ancho máximo de 210 píxeles para las imágenes de las respuestas (para que no se desborden) */
+    cursor: pointer; /* Cambia el cursor del ratón a una mano cuando se pasa por encima, indicando que son interactuables */
+}
+
+/* Estilos para el contenedor del resultado */
+#resultado {
+    margin-top: 60px; /* Aplica un margen superior de 60 píxeles */
+    display:block; /* Hace que el elemento se comporte como un bloque, ocupando todo el ancho disponible y creando saltos de línea antes y después */
+}
+
+/* Estilos para el texto de respuesta correcta */
+.correcto {
+    color: #FAEBD7; /* Establece el color del texto a un blanco hueso */
+}
+
+/* Estilos para el texto de respuesta incorrecta */
+.incorrecto {
+    color: #FAEBD7; /* Establece el color del texto a un blanco hueso */
+}
+
+/* Estilos para el contenedor principal del juego */
+#game{
+    background-color:#12b33d; /* Establece un color de fondo verde (#12b33d) */
+    margin-top:5px; /* Aplica un margen superior de 5 píxeles */
+    width:300px; /* Establece un ancho fijo de 300 píxeles */
+    height: 80px; /* Establece una altura fija de 80 píxeles */
+}
+
+/* Estilos para el contenedor de la puntuación actual */
+#puntuacion{
+    margin-top: 10px; /* Aplica un margen superior de 10 píxeles */
+    background-color: #f01e07; /* Establece un color de fondo rojo (#f01e07) */
+}
+
+/* Estilos para el contenedor de la puntuación más alta */
+#puntuacion-alta{
+    background-color:#0909d9; /* Establece un color de fondo azul (#0909d9) */
+}
+
+/* Estilos para diferentes niveles */
+#nivel0{
+    background-color: #8d0ece; /* Establece un color de fondo morado */
+}
+#nivel1{
+    background-color:#0909d9; /* Establece un color de fondo azul */
+}
+#nivel2{
+    background-color:#12b33d; /* Establece un color de fondo verde*/
+}
+#nivel3{
+    background-color: #f01e07; /* Establece un color de fondo rojo */
+}
+#nivel4{
+    background-color: #ff9109; /* Establece un color de fondo naranja */
+}
+#nivel5{
+    background-color: #ff00ff; /* Establece un color de fondo fucsia */
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- se define el lenguaje de la página o app-->
+	<head>       <!-- se define la cabecera de la página-->
+		<title>MATSARA</title> <!-- se define el titulo de la página-->
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"> 
+		<!-- se incluyen los css o paginas de estilos desde archivo-->
+		<link rel="stylesheet" type="text/css" href="../framework/css/jquery.mobile-1.4.5.min.css"> 
+		<link rel="stylesheet" type="text/css" href="../framework/css/style.css"> 
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	
+	<!--Cuerpo de la Pagina-->
+	<body data-role="page" >
+	
+		<!-- se define la cabecera de la aplicación---->
+		<header data-role="header" class="fondo alto"> 	
+			<p class="ui-corner-all ui-btn-icon-left ui-icon-arrow-l" onclick="menu()">Nivel 4 - Ejercicios Variados I</p>			
+		</header>	
+	
+		<nav class="fondo"> 				
+			<img class="logo" src="../img/logo.png" id='img-welcome'>	
+			
+			<!-- se define las preguntas y respuestas para el juego---->
+			<ul>
+					<div id="pregunta">
+						<img src="" alt="Pregunta">
+					</div>
+				<div id="respuestas">
+				  
+				  <li id="game" class="ui-shadow ui-corner-all ui-btn ui-corner-all ui-btn-b"> <img src="" alt="Respuesta 1" data-correcta="false"></li>
+				  <li id="game" class="ui-shadow ui-corner-all ui-btn ui-corner-all ui-btn-b"> <img src="" alt="Respuesta 2" data-correcta="true"></li>
+				  <li id="game" class="ui-shadow ui-corner-all ui-btn ui-corner-all ui-btn-b"> <img src="" alt="Respuesta 3" data-correcta="false"></li>
+				  <li id="game" class="ui-shadow ui-corner-all ui-btn ui-corner-all ui-btn-b"> <img src="" alt="Respuesta 4" data-correcta="false"></li>
+				</div>
+				<div id="resultado"></div>
+					<div id="puntuacion-alta" class="ui-shadow ui-corner-all ui-btn ui-corner-all ui-btn-b">Puntuación más alta: 0</div>
+					<div id="puntuacion" class="ui-shadow ui-corner-all ui-btn ui-corner-all ui-btn-b" >Puntuación: 0</div>
+			</ul>
+		</nav>
+	</body>
+	
+	<!--botón de reniciar el juego-->
+	<button id="reiniciar">Reiniciar Juego</button>
+		
+	<!--incluyen los js desde archivos-->
+	<script src="js/level4.js"></script>
+	<script type="text/javascript" src='../framework/js/jquery-2.1.4.min.js'></script> 
+	<script type="text/javascript" src='../framework/js/jquery.mobile-1.4.5.min.js'></script>						
+	<script type="text/javascript" src='../framework/js/index.js'></script>
+	<script type="text/javascript" src='js/menu_juego.js'></script>
+</html>
+
+    
+
+    
