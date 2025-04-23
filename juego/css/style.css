@@ -64,7 +64,7 @@ margin-left:100px;
 
 }
 #niveles{
-margin-left:200px;
+margin-left:-200px;
 }
 /* Estilos para el contenedor de la puntuación actual */
 #puntuacion{
