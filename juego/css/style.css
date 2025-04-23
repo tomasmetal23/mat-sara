@@ -12,13 +12,7 @@ ul h1{
 header p{
     text-align: left;
 }
-#pregunta{
-    margin-left: -80px; /* Aplica un margen izquierdo negativo de 80 píxeles (puede ser para ajustar la posición) */
-    margin-top:-40px; /* Aplica un margen superior negativo de 40 píxeles (puede ser para ajustar la posición) */
-    width: 550px; /* Establece un ancho fijo de 550 píxeles para el contenedor de la pregunta */
-    height: auto; /* Permite que la altura del contenedor se ajuste automáticamente al contenido */
-    padding-bottom:-150px; /* Aplica un padding inferior negativo de 150 píxeles (puede ser para ajustar el espaciado con elementos inferiores) */
-}
+
 
 /* Estilos para la imagen dentro del contenedor de la pregunta */
 #pregunta img {
