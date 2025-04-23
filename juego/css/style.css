@@ -1,8 +1,16 @@
-/* Estilos generales del juego */
-body {
-    font-family: sans-serif; /* Establece la fuente de texto predeterminada a una sans-serif (sin remates) */
-   /* text-align: center;  Centra el texto de forma horizontal dentro del body */
+*{
+        padding:0; /* Elimina el espacio interno de todos los elementos */
+        margin:0; /* Elimina el margen externo de todos los elementos */
+        box-sizing: border-box; /* Incluye el padding y el border dentro del ancho y alto de un elemento */
+
+
 }
+
+/* Estilos generales del juego 
+body {
+  font-family: sans-serif;  sans-serif (sin remates) 
+    text-align: center;  Centra el texto de forma horizontal dentro del body 
+}*/
 
 ul h1{
 	color: #FAEBD7; /* Establece el color del texto de los encabezados <h1> dentro de listas <ul> a un blanco hueso */
