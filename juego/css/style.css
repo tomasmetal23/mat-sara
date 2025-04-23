@@ -88,6 +88,7 @@ margin-left: -80px; /* Aplica un margen izquierdo negativo de 80 píxeles (puede
     background-color: #ff00ff; /* Establece un color de fondo fucsia */
 }
 
-header p{
+#titulo{
+ 
     text-align: left;
 }
