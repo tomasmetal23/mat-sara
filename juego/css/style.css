@@ -4,9 +4,9 @@ body {
     text-align: center;  Centra el texto de forma horizontal dentro del body 
 }*/
 
-ul h1{
-	color: #FAEBD7; /* Establece el color del texto de los encabezados <h1> dentro de listas <ul> a un blanco hueso */
-}
+/*ul h1{
+	color: #FAEBD7;  Establece el color del texto de los encabezados <h1> dentro de listas <ul> a un blanco hueso 
+}*/
 
 /* Estilos para el contenedor de la pregunta */
 #pregunta{
