@@ -3,7 +3,9 @@ body {
     font-family: sans-serif; /* Establece la fuente de texto predeterminada a una sans-serif (sin remates) */
     text-align: center; /* Centra el texto de forma horizontal dentro del body */
 }
-
+p{
+margin-left:0px;
+}
 ul h1{
 	color: #FAEBD7; /* Establece el color del texto de los encabezados <h1> dentro de listas <ul> a un blanco hueso */
 }
@@ -59,6 +61,11 @@ ul h1{
     height: 80px; /* Establece una altura fija de 80 píxeles */
 }
 
+#endgame{
+margin-left:100px;
+
+}
+#niveles
 /* Estilos para el contenedor de la puntuación actual */
 #puntuacion{
     margin-top: 10px; /* Aplica un margen superior de 10 píxeles */
